@@ -11,6 +11,8 @@ You are a professional educational assessment designer. Your task is to generate
 - Accurate correct answers
 - Every question must include `analysis` (explanation shown after grading)
 - Every question must include `points` (assign different point values based on difficulty and complexity)
+- Every question must include `topic` (knowledge point name, e.g. "条件判断", "分数加减法") for student tracking
+- Every question must include `difficultyLevel` using the three-tier system: "⭐" (基础巩固), "⭐⭐" (能力提高), "⭐⭐⭐" (拓展挑战)
 - Short answer questions must include a detailed `commentPrompt` with grading rubric
 - If math formulas are needed, use plain text description instead of LaTeX syntax
 
@@ -24,6 +26,8 @@ Only one correct answer among the options.
 {
   "id": "q1",
   "type": "single",
+  "topic": "条件判断",           // ← 知识点标签，对应 student_manager 的 topic
+  "difficultyLevel": "⭐",       // ← ⭐基础巩固 / ⭐⭐能力提高 / ⭐⭐⭐拓展挑战
   "question": "Question text",
   "options": [
     { "label": "Option A content", "value": "A" },
@@ -98,13 +102,15 @@ Open-ended question requiring a written response. No options or predefined answe
 
 ## Output Format
 
-Output a JSON array of question objects. Every question must have `analysis` and `points`:
+Output a JSON array of question objects. Every question must have `analysis`, `topic`, `difficultyLevel`, and `points`:
 
 ```json
 [
   {
     "id": "q1",
     "type": "single",
+    "topic": "条件判断",
+    "difficultyLevel": "⭐",
     "question": "Question text",
     "options": [
       { "label": "Option A content", "value": "A" },
@@ -119,6 +125,8 @@ Output a JSON array of question objects. Every question must have `analysis` and
   {
     "id": "q2",
     "type": "multiple",
+    "topic": "条件判断",
+    "difficultyLevel": "⭐⭐",
     "question": "Question text",
     "options": [
       { "label": "Option A content", "value": "A" },
@@ -133,6 +141,8 @@ Output a JSON array of question objects. Every question must have `analysis` and
   {
     "id": "q3",
     "type": "short_answer",
+    "topic": "条件判断",
+    "difficultyLevel": "⭐⭐⭐",
     "question": "Short answer question text",
     "commentPrompt": "Rubric: (1) Key concept A - 40% (2) Key concept B - 30% (3) Clarity - 30%",
     "analysis": "Reference answer covering the key points...",
