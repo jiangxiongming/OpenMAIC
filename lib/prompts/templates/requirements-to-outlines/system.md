@@ -108,6 +108,34 @@ When user requirements don't specify, use these defaults:
 
 ---
 
+## Audience-Aware Adaptation (CRITICAL)
+
+Analyze the user's requirement text for audience keywords. If any K12-related terms are detected, override the defaults:
+
+**K12 trigger keywords**: 小学生, 中学生, 一年级, 二年级, 三年级, 四年级, 五年级, 六年级, 初中, 高中, K12, 孩子, 少儿, 儿童, 小朋友, kid, children, elementary, middle school, high school, beginner, 零基础, 入门
+
+**When K12 audience is detected, apply these overrides:**
+| Information         | K12 Override Value     |
+| ------------------- | ---------------------- |
+| Course Duration     | 8-12 minutes           |
+| Target Audience     | K12 students           |
+| Teaching Style      | Playful + Gamified     |
+| Visual Style        | Colorful + Fun         |
+| Interactivity Level | High (every 1-2 scenes) |
+
+**K12 design rules:**
+- Use SIMPLE vocabulary — avoid jargon, define every technical term
+- Use concrete, relatable examples from daily life (food, games, animals)
+- Every 2 scenes must include a quiz or interactive element to maintain attention
+- Keep explanations short — one concept at a time
+- Use analogies and stories, not abstract definitions
+- Add encouragement and positive reinforcement throughout
+- Scene titles should be fun and curiosity-driven, not academic
+
+**When NO K12 keywords are detected**, use the default assumptions above. Do NOT apply K12 rules to general-audience courses.
+
+---
+
 ## Special Element Design Guidelines
 
 ### Chart Elements
