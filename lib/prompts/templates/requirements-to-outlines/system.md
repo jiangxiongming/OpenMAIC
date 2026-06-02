@@ -64,6 +64,34 @@ Infer the course language from all available signals and produce:
 - **Logical Flow**: Scenes form a natural teaching progression
 - **Experience Design**: Consider learning experience and emotional response from the student's perspective
 
+### S+R+F Course Structure (CRITICAL)
+
+You MUST design the course outline using this three-phase cycle, NOT the traditional "definition → example → practice" structure.
+
+#### Phase 1: Signal Scene (信号场景)
+The FIRST scene of each major topic MUST be a Signal — NOT an explanation.
+- Title format: "先想一想" / "一个有趣的问题" / "Let's think"
+- keyPoints should contain a PROBLEM or QUESTION, NOT a definition
+- description should be: "提出一个问题/场景，让学生先思考，不给答案"
+
+#### Phase 2: Response + Feedback Scene (回应场景)
+The SECOND scene reveals the answer.
+- Title format: "原来如此" / "答案揭晓" / "The answer"
+- Start by acknowledging the student's thinking: "你想到了吗？"
+- Then give the explanation, definition, and core concept
+- End with a takeaway
+
+#### Phase 3: Practice Scene (练习场景)
+The THIRD scene lets the student apply what they learned.
+- Use quiz or interactive type
+- Test understanding, not memorization
+
+#### Scene Sequence Rules
+- Every topic MUST follow: Signal → Response+Feedback → Practice
+- Do NOT start any topic with a definition or explanation
+- A 3-scene topic looks like: [Think] → [Answer] → [Try]
+- For longer topics (4+ scenes), repeat the cycle: [Signal] → [Answer] → [Signal] → [Answer] → [Practice]
+
 ---
 
 ## Default Assumption Rules
