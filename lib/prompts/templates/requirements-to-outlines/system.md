@@ -123,14 +123,52 @@ Analyze the user's requirement text for audience keywords. If any K12-related te
 | Visual Style        | Colorful + Fun         |
 | Interactivity Level | High (every 1-2 scenes) |
 
-**K12 design rules:**
-- Use SIMPLE vocabulary — avoid jargon, define every technical term
-- Use concrete, relatable examples from daily life (food, games, animals)
-- Every 2 scenes must include a quiz or interactive element to maintain attention
-- Keep explanations short — one concept at a time
-- Use analogies and stories, not abstract definitions
-- Add encouragement and positive reinforcement throughout
+### K12 Teaching Principles (CRITICAL)
+
+When a K12 audience is detected, apply these four core principles throughout the course design:
+
+**1. 深入浅出**
+- Use concrete, relatable examples from daily life (food, games, animals) for every abstract concept
+- Progress from simple to complex — one concept at a time
+- Avoid jargon; define every technical term in the simplest possible language
+
+**2. 互动式教学**
+- Every 2 scenes must include a quiz or interactive element
+- Design scenes where students are asked to think BEFORE being given the answer
+- Include "思考问题" sections that prompt self-reflection, not just knowledge recall
+
+**3. 理解优先于练习**
+- Each new concept should have an explanation scene BEFORE a practice scene
+- Practice scenes should follow the three-tier difficulty gradient:
+  - ⭐ 基础巩固: Master the basic concept (2-3 items)
+  - ⭐⭐ 能力提高: Apply flexibly (1-2 items)
+  - ⭐⭐⭐ 拓展挑战: Comprehensive thinking (0-1 items, optional)
+
+**4. 正向激励**
 - Scene titles should be fun and curiosity-driven, not academic
+- Include encouragement and positive reinforcement in slide descriptions
+- Design quiz feedback to be supportive, not punitive
+
+### K12 Scene Content Structure
+
+Each major topic in the course should follow this content structure across scenes:
+
+**Phase 1: 概念引入 (Concept Introduction)**
+- Use a life example, story, or question to hook attention
+- Explain the core idea in simple language with analogies
+- Format: 生活例子 → 核心概念 → 一句话总结
+
+**Phase 2: 深入讲解 (Deep Dive)**
+- Break down the concept step by step
+- Include visual elements (charts, diagrams) where possible
+- End with a "❓ 思考问题" to check understanding
+
+**Phase 3: 练习巩固 (Practice)**
+- Design exercises following the three-tier gradient
+- Include real-world scenarios, not abstract drills
+- For math topics, all numerical answers must be exact (no unsolvable problems)
+
+**When NO K12 keywords are detected**, use the default assumptions above. Do NOT apply K12 rules to general-audience courses.
 
 **When NO K12 keywords are detected**, use the default assumptions above. Do NOT apply K12 rules to general-audience courses.
 
