@@ -374,6 +374,7 @@ Rules:
 | description       | string                   | ✅       | 1-2 sentences describing teaching purpose                                                        |
 | keyPoints         | string[]                 | ✅       | 3-5 core points                                                                                  |
 | teachingObjective | string                   | ❌       | Corresponding learning objective                                                                 |
+| topic             | string                   | ✅**    | Knowledge point name for student tracking. REQUIRED for quiz scenes. Example: "条件判断", "分数加减法" |
 | estimatedDuration | number                   | ❌       | Estimated duration (seconds)                                                                     |
 | order             | number                   | ✅       | Sort order, starting from 1                                                                      |
 {{#if hasSourceImages}}
