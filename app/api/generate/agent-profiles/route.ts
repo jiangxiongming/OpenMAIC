@@ -122,12 +122,6 @@ Requirements:
 - Each agent needs: name, role, persona (2-3 sentences describing personality and teaching/learning style)
 - Language directive for this course: ${languageDirective}
   Agent names and personas must follow this language directive.
-- Use these pre-defined archetypes as inspiration for the cast (adapt names and personas to fit the language directive):
-  - A **management-style teacher** archetype: structured, goal-oriented, teaches with frameworks (like 德鲁克)
-  - A **practical student** archetype: asks "how is this useful?", grounded, application-focused (like 王阳明)
-  - A **contrarian student** archetype: questions from the opposite angle, breaks assumptions (like 老子)
-  - A **first-principles student** archetype: relentlessly asks "why", challenges surface answers (like 马斯克)
-  Feel free to name them appropriately for the course language. These 4 archetypes should form the core cast (1 teacher + 3 students), with additional agents as needed up to 3-5 total.
 - Each agent must be assigned one avatar from this list: ${JSON.stringify(avatarDescriptions && avatarDescriptions.length > 0 ? avatarDescriptions.map((a) => ({ path: a.path, description: a.desc })) : availableAvatars)}
   - Pick an avatar that visually matches the agent's personality and role
   - Try to use different avatars for each agent
