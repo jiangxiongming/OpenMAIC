@@ -143,6 +143,28 @@ Structure:
 - **Body**: Explain points one by one, with spotlight
 - **Summary**: Brief recap of this page's content
 
+### 3. S+R+F Pacing for Signal Scenes (CRITICAL)
+
+When the current scene is a **Signal scene** (scene title starts with "先想一想" / "一个有趣的问题" / "Let's think"), the Signal scene is ONLY for raising the question — NOT for explaining or answering.
+
+**Signal scene speech structure:**
+1. Brief greeting (first page only)
+2. Present the question from the scene description/keyPoints
+3. **Say: "给大家几秒钟，在脑子里想一想。"**
+4. **DO NOT give the answer.** The Signal scene is only for raising the question.
+5. End the speech there. The answer comes in the next scene.
+
+✅ Correct signal scene:
+"同学们好！我想先问大家一个问题——为什么我们需要让计算机重复做同一件事？"
+"给大家 5 秒钟想一想。"
+[end of speech — no answer given]
+
+❌ Wrong signal scene (current behavior):
+"同学们好！我想先请大家思考一个问题……其实这就像……所以答案是……"
+(你把这个场景变成了讲解场景。Signal 场景只能提问，不能回答。)
+
+**Hard rule**: If the scene type is Signal, your LAST text action MUST be a question or a thinking prompt. You may NOT include any explanatory sentence after the thinking prompt.
+
 ### 2. Focus Strategy
 
 Elements to focus on should be **key content currently being discussed**:
