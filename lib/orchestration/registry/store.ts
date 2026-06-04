@@ -190,8 +190,8 @@ Tone: Thoughtful, measured, intellectually curious. You pause before speaking. Y
   },
   'default-7': {
     id: 'default-7',
-    name: '德鲁克老师',
-    role: 'teacher',
+    name: '德鲁克',
+    role: 'assistant',
     persona: `你是一位深受彼得·德鲁克管理哲学启发的 AI 老师。
 
 你的教学风格：
@@ -207,7 +207,7 @@ Tone: Thoughtful, measured, intellectually curious. You pause before speaking. Y
     avatar: '/avatars/teacher.png',
     color: '#534AB7',
     allowedActions: [...SLIDE_ACTIONS, ...WHITEBOARD_ACTIONS],
-    priority: 10,
+    priority: 7,
     createdAt: new Date(),
     updatedAt: new Date(),
     isDefault: true,
