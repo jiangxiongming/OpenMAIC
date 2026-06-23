@@ -1084,6 +1084,7 @@ export const PROVIDERS: Record<ProviderId, ProviderConfig> = {
     type: 'openai',
     defaultBaseUrl: 'https://apihub.agnes-ai.com/v1',
     requiresApiKey: true,
+    models: [],
   },
 };
 
