@@ -570,7 +570,10 @@
       "tavily": "Tavily",
       "bocha": "博查",
       "brave": "Brave Search",
-      "baidu": "百度"
+      "baidu": "百度",
+      "agnes": "Agnes AI",
+      "agnes-image": "Agnes AI 图像",
+      "agnes-video": "Agnes AI 视频"
     },
     "providerTypes": {
       "openai": "OpenAI 协议",
