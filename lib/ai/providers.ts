@@ -1078,6 +1078,13 @@ export const PROVIDERS: Record<ProviderId, ProviderConfig> = {
       },
     ],
   },
+  agnes: {
+    id: 'agnes',
+    name: 'Agnes AI',
+    type: 'openai',
+    defaultBaseUrl: 'https://apihub.agnes-ai.com/v1',
+    requiresApiKey: true,
+  },
 };
 
 applyModelMetadata(PROVIDERS);
