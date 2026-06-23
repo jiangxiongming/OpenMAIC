@@ -570,7 +570,10 @@
       "tavily": "Tavily",
       "bocha": "Bocha",
       "brave": "Brave Search",
-      "baidu": "Baidu"
+      "baidu": "Baidu",
+      "agnes": "Agnes AI",
+      "agnes-image": "Agnes AI Image",
+      "agnes-video": "Agnes AI Video"
     },
     "providerTypes": {
       "openai": "OpenAI Protocol",
