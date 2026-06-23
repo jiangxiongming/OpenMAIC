@@ -56,6 +56,7 @@ const LLM_ENV_MAP: Record<string, string> = {
   MIMO: 'xiaomi',
   OLLAMA: 'ollama',
   LEMONADE: 'lemonade',
+  AGNES: 'agnes',
 };
 
 const TTS_ENV_MAP: Record<string, string> = {
